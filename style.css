@@ -1,0 +1,23 @@
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: mymove 7s infinite;
+}
+@keyframes mymove{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
